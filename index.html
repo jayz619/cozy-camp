@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cozy Camp: Idle Island Life</title>
+<meta name="description" content="Cozy Camp is a cozy idle game for Android. Run a camp, lift the fog from an island, and build up an island of your own: shops, fishing, a house to decorate and a garden.">
+<style>
+  :root {
+    --ink: #4a3329; --ink-2: #63483b; --muted: #9a8474;
+    --c50: #fbf6e9; --c100: #f1e6cd; --t600: #b9532f; --g600: #4f8f3a;
+    --card: #fff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--c50); color: var(--ink);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 22px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .mark {
+    width: 56px; height: 56px; border-radius: 18px; flex: 0 0 auto;
+    background: linear-gradient(140deg, #9ad86b, #4f8f3a);
+    display: grid; place-items: center;
+  }
+  h1 { margin: 0; font-size: 30px; font-weight: 900; letter-spacing: -.5px; }
+  .tag { margin: 2px 0 0; color: var(--muted); font-weight: 600; }
+  .lede { font-size: 18px; color: var(--ink-2); margin: 26px 0; }
+  .card {
+    background: var(--card); border-radius: 20px; padding: 22px 24px; margin: 18px 0;
+    box-shadow: 0 8px 24px rgba(74, 51, 41, .07);
+  }
+  h2 { font-size: 17px; margin: 0 0 10px; font-weight: 900; }
+  ul { margin: 0; padding-left: 20px; color: var(--ink-2); }
+  li { margin-bottom: 7px; }
+  a { color: var(--t600); font-weight: 700; }
+  footer {
+    margin-top: 36px; padding-top: 20px; border-top: 1.5px solid var(--c100);
+    color: var(--muted); font-size: 14px;
+    display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark" aria-hidden="true">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <path d="M18 5 4 30h28L18 5Z" fill="#fff6dc" stroke="#4a3329" stroke-width="2.4" stroke-linejoin="round"/>
+        <path d="M18 14l-6 16h12l-6-16Z" fill="#e38d6c" stroke="#4a3329" stroke-width="2.4" stroke-linejoin="round"/>
+        <path d="M18 5V2" stroke="#4a3329" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div>
+      <h1>Cozy Camp</h1>
+      <p class="tag">Idle Island Life · a cozy idle game for Android</p>
+    </div>
+  </header>
+
+  <p class="lede">
+    A fog has rolled over the island, and it pulls back from firelight. Make camp, put the crew
+    to work, and light the way from one clearing to the next. While they work, sail out to an
+    island of your own and build it up one project at a time.
+  </p>
+
+  <div class="card">
+    <h2>What's in it</h2>
+    <ul>
+      <li><b>An idle camp</b> — your crew chop, gather and carry on their own, and keep earning while you're away.</li>
+      <li><b>An island to restore</b> — the quarry, the riverside, the zoo, the farm, the old town and more, each with its own crew.</li>
+      <li><b>Coral Cay</b> — the crew's own island: stairs, bridges and shops to build with what the camp earns.</li>
+      <li><b>Fishing and bug catching</b>, with a museum to fill.</li>
+      <li><b>A house of your own</b> — furniture, wallpaper and floors to arrange, and a garden that grows in real time.</li>
+      <li>Plays offline. No account, no ads.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+    <a href="terms.html">Terms</a>
+    <a href="delete-account.html">Delete your data</a>
+    <span>© 2026 Aurel Interactive</span>
+  </footer>
+</div>
+</body>
+</html>
